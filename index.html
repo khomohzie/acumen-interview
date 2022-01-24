@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephantom - Home</title>
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="sidebar">
+            <button class="close-btn">
+                &times;
+            </button>
+
+            <img class="sidebar__logo" src="./elephant.png" alt="site logo" />
+
+            <p class="sidebar__nav-item active">
+                <a href="./index.html">Home</a>
+            </p>
+            <p class="sidebar__nav-item">
+                <a href="./details.html">Elephant</a>
+            </p>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="breadcrumb">
+            <button class="sidebar-mobile">
+                ㊂
+            </button>
+            Acumen Digital Interview Task / Elephantom
+        </div>
+
+        <div class="table-container">
+            <div class="table__name">All Elephants</div>
+            <table class='table' width=100%>
+                <thead class='thead-dark'>
+                    <tr>
+                        <th scope='col'>S/N</th>
+                        <th scope='col'>Name</th>
+                        <th scope='col'>Species</th>
+                        <th scope='col'>Sex</th>
+                        <th scope='col'>Affiliation</th>
+                        <th scope='col'>Dob</th>
+                    </tr>
+                </thead>
+                <tbody id="html-data-table"></tbody>
+            </table>
+
+            <div class="pagenumbers">
+                <div class="page-info" id="page-info"></div>
+                <div class="btn-group" id="pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+    <script src="/js/home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.detail {
+    margin: 16px 48px;
+}
+
+.elephant-image {
+    width: 100%;
+    height: 400px;
+}
+
+.detail__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 61px;
+    color: #30425A;
+}
+
+span {
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #30425A;
+}
+
+.detail__body {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    color: #30425A;
+    margin-top: -10px;
+}
+
+.nothing {
+    text-align: center;
+    margin-top: 10%;
+}
+
+@media (max-width: 310px) {
+    .detail {
+        margin: 16px 32px;
+    }   
+}
