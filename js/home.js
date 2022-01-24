@@ -2,7 +2,7 @@
 
 const myTable = document.getElementById("html-data-table");
 
-const apiData = fetch("http://acumen-elephantom.herokuapp.com/elephants/asian")
+const apiData = fetch("//acumen-elephantom.herokuapp.com/elephants/asian")
     .then(function (res) {
         return res.json();
     })

@@ -6,7 +6,7 @@ const searchParams = new URLSearchParams(paramsString);
 
 let elephantId = searchParams.get("id");
 
-fetch(`http://acumen-elephantom.herokuapp.com/elephants/id/${elephantId}`)
+fetch(`//acumen-elephantom.herokuapp.com/elephants/id/${elephantId}`)
     .then(function (res) {
         return res.json();
     })
